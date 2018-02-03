@@ -1,0 +1,107 @@
+{
+  "TEMP_texelinfo": 5.84968,
+  "armor_type": "AT_Hover",
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0,
+        2.7
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/veh/tank_hover_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    },
+    "selection_response": {
+      "cue": "/SE/Selection/veh/tank_hover"
+    }
+  },
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+  "build_metal_cost": 225,
+  "description": "Hover Tank- Fast. Can cross water and lava. Attacks land and sea targets.",
+  "si_name": "sio_t1_hover_tank",
+  "display_name": "Drifter",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/veh"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/Veh"
+    },
+    "fired": {
+      "audio_cue": "/SE/Weapons/veh/tank_hover_fire",
+      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle"
+    }
+  },
+  "guard_layer": "WL_LandHorizontal",
+  "max_health": 250,
+  "mesh_bounds": [
+    4.93769,
+    6.4,
+    2.6835
+  ],
+  "model": {
+    "animations": {
+      "idle": "/pa/units/land/sio_t1_hover_tank/sio_t1_hover_tank_anim_idle.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/sio_t1_hover_tank_anim_tree.json",
+    "filename": "/pa/units/land/sio_t1_hover_tank/sio_t1_hover_tank.papa"
+  },
+  "navigation": {
+    "acceleration": 140,
+    "brake": 140,
+    "move_speed": 14,
+    "turn_speed": 90,
+    "type": "hover"
+  },
+  "physics": {
+    "air_friction": 0.5,
+    "radius": 3
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "selection_icon": {
+    "diameter": 12.0
+  },
+  "tools": [
+    {
+      "aim_bone": "socket_aim",
+      "muzzle_bone": "socket_muzzle",
+      "spec_id": "/pa/units/land/tank_hover/tank_hover_tool_weapon.json"
+    }
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "unit_types": [
+    "UNITTYPE_Tank",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Offense",
+    "UNITTYPE_Land",
+    "UNITTYPE_Basic",
+    "UNITTYPE_Hover",
+    "UNITTYPE_FactoryBuild"
+  ]
+}

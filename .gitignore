@@ -17,6 +17,12 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# User Tools
+PapaModelAnim.bat
+PapaTexture.bat
+JsonCleaner.py
+default.settings
+
 # =========================
 # Operating System Files
 # =========================

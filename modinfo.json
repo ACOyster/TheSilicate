@@ -1,0 +1,15 @@
+{
+  "author": "acesoyster",
+  "category": [
+    "titans",
+    "units"
+  ],
+  "context": "server",
+  "date": "2018/02/01",
+  "description": "Adding new units",
+  "display_name": "The Silicate",
+  "identifier": "com.acesoyster.pa.silicate_server",
+  "signature": "(not yet implemented)",
+  "titansOnly": true,
+  "version": "1.0"
+}
