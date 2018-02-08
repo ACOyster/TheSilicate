@@ -1,0 +1,25 @@
+{
+  "blend_root": {
+    "nodes": {
+      "being_built": {
+        "type": "bind_pose"
+      },
+      "dead": {
+        "type": "bind_pose"
+      },
+      "ghost": {
+        "type": "bind_pose"
+      },
+      "living": {
+        "node_idle": {
+          "type": "bind_pose"
+        },
+        "node_walk": {
+          "type": "bind_pose"
+        },
+        "type": "walk"
+      }
+    },
+    "type": "unit_state"
+  }
+}

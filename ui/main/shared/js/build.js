@@ -76,7 +76,7 @@ var Build = (function() {
 
 
         "/pa/units/land/tank_nuke/tank_nuke.json": ["vehicle", 0],
-        "/pa/units/land/sio_t1_hover_tank/sio_t1_hover_tank.json": ["vehicle", 1],
+        "/pa/units/land/sio_t1_hover_scout/sio_t1_hover_scout.json": ["vehicle", 1],
 
         "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv.json": ["vehicle", 6],
         "/pa/units/land/tank_laser_adv/tank_laser_adv.json": ["vehicle", 7],

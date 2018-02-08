@@ -129,7 +129,7 @@ $(document).ready(function () {
             'artillery_unit_launcher',
             'titan_structure',
             'tutorial_titan_commander',
-            'sio_t1_hover_tank',
+            'sio_t1_hover_scout',
         ]);
 
         self.sendIconList = function () {

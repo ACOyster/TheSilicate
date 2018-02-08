@@ -197,6 +197,6 @@
     "/pa/units/sea/drone_carrier/drone/drone.json",
     "/pa/units/sea/fabrication_barge/fabrication_barge.json",
     "/pa/units/sea/hover_ship/hover_ship.json",
-    "/pa/units/land/sio_t1_hover_tank/sio_t1_hover_tank.json"
+    "/pa/units/land/sio_t1_hover_scout/sio_t1_hover_scout.json"
   ]
 }
